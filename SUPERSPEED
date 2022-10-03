@@ -1,0 +1,6 @@
+--speed gui made by rdizzy#0001
+--getnev("ban.users.highprotect(").cleint.try.remove("banfromgame")
+local speed = 510
+
+game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = speed
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = (speed * 1.5)
